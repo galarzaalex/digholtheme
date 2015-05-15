@@ -7,3 +7,9 @@ Template: sela
 */
 @import url('../sela/style.css');
 
+.main-navigation {
+	background-color: #9ec8c5;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+	color: #fff;
+	display: block;
+	}

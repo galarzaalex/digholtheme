@@ -15,6 +15,6 @@ Template: sela
 	}
 
 body {
-		background: url('../images/Background Postcards.jpg');
+		background-image: url('../Images/Background Postcards.jpg');
 		font-family: "Times New Roman", Times, serif;
 	}

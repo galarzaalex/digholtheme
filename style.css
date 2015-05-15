@@ -20,7 +20,7 @@ body {
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font: Tahoma, Geneva, sans-serif;
+	font: Tahoma, Geneva, sans-serif, !important;
 }
 
 

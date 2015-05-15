@@ -13,3 +13,7 @@ Template: sela
 	color: #fff;
 	display: block;
 	}
+
+body {
+		background: url('../images/Background Postcards.jpg')
+	}

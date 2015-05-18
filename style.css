@@ -15,7 +15,7 @@ Template: sela
 	}
 
 body {
-		background-image: url('../Images/Background Postcards.jpg');
+		background-image: url("../Images/Background Postcards.jpg");
 		font: Arial, Helvetica, sans-serif;
 
 	}

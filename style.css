@@ -34,3 +34,7 @@
 
 .sidebar-header-right { display: none; }
 
+footer {
+    background-color: green;
+}
+

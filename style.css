@@ -29,8 +29,3 @@
 .accordion-title.open {cursor: default;}
 .accordion-content {padding-bottom: 20px;}
 
-.nav-secondary {
-    background-color: #9ec8c5;
-    position: relative;
-    z-index: 197;
-}

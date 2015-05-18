@@ -1,12 +1,27 @@
 /*
-Theme Name: Child of Catch Responsive
+Theme Name: Child of Sela
 Description: Theme for Digital Holland
 Author: Hofnorhan
 Version 1.0
-Template: catch-responsive
+Template: sela
 */
-@import url('../catch-responsive/style.css');
+@import url('../sela/style.css');
 
+.main-navigation {
+	background-color: #9ec8c5;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+	color: #fff;
+	display: block;
+	}
 
+body {
+		background-image: url('../Images/Background Postcards.jpg');
+		font: Arial, Helvetica, sans-serif;
+
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font: Tahoma, Geneva, sans-serif, !important;
+}
 
 

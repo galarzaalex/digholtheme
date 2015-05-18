@@ -23,7 +23,7 @@
 .accordion-title {
     border-top: 3px solid #000000;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 10px 10px 10px;
     cursor: pointer;
 	text-color: white;
 }
@@ -33,5 +33,4 @@
 .accordion-content {padding-bottom: 20px;}
 
 .sidebar-header-right { display: none; }
-
 

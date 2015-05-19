@@ -45,6 +45,6 @@ footer {
 h1.entry-title a span {
     display: none;
 }
-div.entry-content p {
+figure div.entry-container div.entry-content p {
     display: none;
 }

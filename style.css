@@ -35,5 +35,16 @@
 .sidebar-header-right { display: none; }
 
 footer {
-    background-color: #000000;
+    background-color: #f9f9f9;
+}
+
+.accordion br {
+    display: none;
+}
+
+h1.entry-title a span {
+    display: none;
+}
+div.entry-content p {
+    display: none;
 }

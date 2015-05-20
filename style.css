@@ -32,32 +32,43 @@
 .accordion-title.open {cursor: default;}
 .accordion-content {padding-bottom: 20px;}
 
-.sidebar-header-right { display: none; }
-
-footer {
-    background-color: #f9f9f9;
-}
-
 .accordion br {
     display: none;
 }
+/*End of Accordion Styles */
 
+/* Sidebar Styles*/
+/* When this is enabled, there are 2 search bars at the top */
+.sidebar-header-right { display: none; }
+/* End of Sidebar Styles */
+
+/* Footer Styles */
+footer {
+    background-color: #f9f9f9;
+}
+/* End Footer Styles */
+
+/* Slider Styles */
+/* This gets rid of the title and content on the slider */
 h1.entry-title a span {
     display: none;
 }
 div.entry-container>div.entry-content p {
     display: none;
 }
+/* End Slider Styles */
 
+/* Image Styles*/
 img {
     border: 5px solid #c9c9c9 !important;
 }
-
-div.site-logo>a img {
-    border: none !important;
+/* Removes border from logo */
+div#site-logo>a img {
+    border: none;
 }
-
+ /* This sets the size of the featured homepage images */
 figure.featured-homepage-image>a img {
     height: 200px;
     width: 350px;
 }
+/* End Image Styles */

@@ -16,5 +16,5 @@ add_shortcode('fast_facts', function($atts){
 		print_r($atts);
 	return '
 	<div class="container fast facts"> <img src="http://www.chicagonow.com/steve-dales-pet-world/files/2011/09/Happy-cat.jpg"
-	</div>';
+	</img></div>';
 });

@@ -1,9 +1,7 @@
 <?php
 
 add_shortcode('fast_facts', function(){
-	return '<div class='container_fast_facts'>
-			
-			</div>';
+	return 'text';
 });
 
 add_shortcode('name', function(){

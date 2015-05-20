@@ -77,18 +77,3 @@ figure.featured-homepage-image>a img {
     width: 350px;
 }
 /* End Image Styles */
-
-/* Shortcodes Styling */
-
-.container_fast_facts {
-	float: right;
-	background: #ffffff;
-	border-left: solid 4px #d3d3d3;
-	padding-left: 25px;
-}
-
-.name {
-	font-weight: bold;
-}
-
-

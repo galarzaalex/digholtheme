@@ -20,18 +20,7 @@ add_shortcode('fast_facts', function($atts){
 	return '
 	<div class="container_fast_facts"> <img src="'. $atts['src'].'" width="'. $atts['width'].'" height="'. $atts['height'].'"></img>
 		<h4>'. $atts['title'].'</h4>
-	</div>';
-});
-
-
-add_shortcode('value', function($atts){
-	$atts = shortcode_atts(
-		array(
-			'content' => Value,
-		), $atts);
-	return '
-	<div class="container_fast_facts">
-		<h5'. $atts['value'].'</h5>
+			<h5'. $atts['value'].'</h5>
 	</div>';
 });
 

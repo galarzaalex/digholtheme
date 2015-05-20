@@ -14,7 +14,7 @@ add_shortcode('fast_facts', function($atts){
 			'src' => '',
 			'width' => 250,
 			'height' => 500,
-			'title' => 'An Image'
+			'title' => 'An Image',
 			'value' => 'Words'
 		), $atts);
 		

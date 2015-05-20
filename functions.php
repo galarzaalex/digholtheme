@@ -12,8 +12,8 @@ add_shortcode('fast_facts', function($atts){
 	$atts = shortcode_atts(
 		array(
 			'src' => '',
-			'width' => 150,
-			'height' => 250,
+			'width' => 250,
+			'height' => 500,
 			'title' => 'An Image'
 		), $atts);
 		
@@ -22,3 +22,28 @@ add_shortcode('fast_facts', function($atts){
 		<h4>'. $atts['title'].'</h4>
 	</div>';
 });
+
+add_shortcode('label', function($atts){
+	$atts = shortcode_atts(
+		array(
+			'label' => 'Label'
+		), $atts);
+		print_r($atts);
+	return '
+	<div class="container_fast_facts">
+		<h5'. $atts['title'].'</h5>
+	</div>';
+});
+
+add_shortcode('value', function($atts){
+	$atts = shortcode_atts(
+		array(
+			'value' => Value,
+		), $atts);
+		print_r($atts);
+	return '
+	<div class="container_fast_facts">
+		<h5'. $atts['title'].'</h5>
+	</div>';
+});
+

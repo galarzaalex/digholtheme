@@ -5,6 +5,7 @@ add_shortcode('fast_facts', function($atts){
 		array(
 			'name' => Name,
 		), $atts);
+		print_r($atts);
 	return '
 	<div class="container_fast_facts">
 	</div>';

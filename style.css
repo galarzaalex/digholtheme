@@ -45,7 +45,7 @@ footer {
 h1.entry-title a span {
     display: none;
 }
-figure.slider-image div.entry-container div.entry-content p {
+div.entry-container>div.entry-content p {
     display: none;
 }
 

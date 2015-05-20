@@ -28,10 +28,9 @@ add_shortcode('label', function($atts){
 		array(
 			'label' => 'Label'
 		), $atts);
-		print_r($atts);
 	return '
 	<div class="container_fast_facts">
-		<h5'. $atts['title'].'</h5>
+		<h5'. $atts['label'].'</h5>
 	</div>';
 });
 
@@ -40,10 +39,9 @@ add_shortcode('value', function($atts){
 		array(
 			'value' => Value,
 		), $atts);
-		print_r($atts);
 	return '
 	<div class="container_fast_facts">
-		<h5'. $atts['title'].'</h5>
+		<h5'. $atts['value'].'</h5>
 	</div>';
 });
 

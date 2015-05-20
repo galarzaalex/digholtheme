@@ -83,9 +83,10 @@ figure.featured-homepage-image>a img {
 .container_fast_facts {
 	
 	float: right;
-		background: #ffffff;
+		background: #cbe4f2;
 		border-left: solid 4px #d3d3d3;
 		padding-left: 25px;
+		margin-left: 15px;
 	}
 	
 .name {

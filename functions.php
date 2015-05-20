@@ -6,5 +6,5 @@ function child_scripts_styles() {
 add_action( 'wp_enqueue_scripts', 'child_scripts_styles' );
 
 function fastfacts($atts, $content = null) {
-	return '<div class="container_fast_facts">"'.$content.'"</div>';
+	return '<div class="container fast facts">"'.$content.'"</div>';
 }

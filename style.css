@@ -85,10 +85,12 @@ figure.featured-homepage-image>a img {
 	float: right;
 		background: #cbe4f2;
 		border-left: solid 4px #d3d3d3;
-		padding-left: 25px;
+		padding: 10px 10px 10px 25px;
 		margin-left: 15px;
 	}
 	
-.name {
+h4 {
 		font-weight: bold;
+		text-align: center;
 	}
+	

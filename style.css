@@ -56,3 +56,8 @@ img {
 div.site-logo {
     border: none;
 }
+
+figure.featured-homepage-image>a img {
+    height: 200px;
+    width: 350px;
+}

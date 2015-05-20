@@ -11,10 +11,14 @@ function fast_facts($atts, $content = null) {
 add_shortcode('fast_facts', function($atts){
 	$atts = shortcode_atts(
 		array(
-			'name' => Name,
+			'src' => '',
+			'width' => 150,
+			'height' => 250,
+			'title' => 'An Image'
 		), $atts);
-		print_r($atts);
+		
 	return '
-	<div class="container_fast_facts"> <img src="http://www.chicagonow.com/steve-dales-pet-world/files/2011/09/Happy-cat.jpg"
-	</img></div>';
+	<div class="container_fast_facts"> <img src="'. $atts['src'].'" width="'. $atts['width'].'" height="'. $atts['height'].'"></img>
+		<h4>'. $atts['title'].'</h4>
+	</div>';
 });

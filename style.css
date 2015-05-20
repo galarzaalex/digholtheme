@@ -48,3 +48,7 @@ h1.entry-title a span {
 figure.slider-image div.entry-container div.entry-content p {
     display: none;
 }
+
+img {
+    border: 2px solid #f9f9f9;
+}

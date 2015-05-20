@@ -53,7 +53,7 @@ img {
     border: 5px solid #c9c9c9 !important;
 }
 
-div.site-logo {
+div.site-logo>a img {
     border: none;
 }
 

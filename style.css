@@ -54,7 +54,7 @@ img {
 }
 
 div.site-logo>a img {
-    border: none;
+    border: none !important;
 }
 
 figure.featured-homepage-image>a img {

@@ -63,8 +63,8 @@ img {
     border: 5px solid #c9c9c9 !important;
 }
 /* Removes border from logo */
-div#site-logo>a>img {
-    border: none;
+div#site-logo>a img {
+    border: 0 !important;
 }
  /* This sets the size of the featured homepage images */
 figure.featured-homepage-image>a img {

@@ -1,5 +1,7 @@
 <?php
 
+
+
 add_shortcode('fast_facts', function($atts){
 	$atts = shortcode_atts(
 		array(

@@ -53,7 +53,7 @@ footer {
 h1.entry-title a span {
     display: none;
 }
-article.slides<div.entry-container>div.entry-content p {
+.slides<div.entry-container>div.entry-content p {
     display: none;
 }
 /* End Slider Styles */

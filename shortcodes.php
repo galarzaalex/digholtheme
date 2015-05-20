@@ -7,6 +7,7 @@ add_shortcode('fast_facts', function($atts){
 		), $atts);
 	return '
 	<div class="container_fast_facts">
-	</div>;
+	</div>';
 });
 
+ 

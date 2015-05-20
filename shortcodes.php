@@ -2,11 +2,11 @@
 
 add_shortcode('fast_facts', function($atts){
 	$atts = shortcode_atts(
-		array (
+		array(
 			'name' => Name,
 		), $atts);
-	return'
-		<div class="container_fast_facts">
+	return '
+	<div class="container_fast_facts">
 	</div>;
 });
 

@@ -5,7 +5,7 @@ function child_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'child_scripts_styles' );
 
-function fastfacts($atts, $content = null) {
+function fast_facts($atts, $content = null) {
 	return '<a href="'.$to.'">'. do_shortcode($content) .'</a>';
 }
 add_shortcode('fast_facts', function($atts){
@@ -13,8 +13,7 @@ add_shortcode('fast_facts', function($atts){
 		array(
 			'name' => Name,
 		), $atts);
-		print_r($atts);
 	return '
-	<div class="container_fast_facts">
+	<div class="container fast facts">
 	</div>';
 });

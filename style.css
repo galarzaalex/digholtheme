@@ -93,3 +93,6 @@ h4 {
 		text-align: center;
 	}
 	
+    .entry-date, .by-line {
+        display: none;
+    }

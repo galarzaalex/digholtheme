@@ -93,16 +93,21 @@ figure.featured-homepage-image>a img {
 /* End Shortcode Styles */	
 
 h3 {
-	
 	font-weight: bold;
 	font-size: 18px;
+	margin: 0;
+	padding: 0;
 }	
 	
 h4 {
-		font-weight: bold;
-		text-align: left;
+	font-weight: bold;
+	text-align: left;
 	}
 	
+h5 {
+	line-height: 1.3;
+}	
+
 p.entry-meta {
     display: none;
 }

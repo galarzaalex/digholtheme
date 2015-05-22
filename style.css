@@ -21,7 +21,11 @@
 	text-color: white;
 	text-align: justify;
 	padding: 20px 20px 20px 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
+
 .accordion-title {
     border-top: 3px solid #d3d3d3;
     margin: 0;
@@ -29,6 +33,7 @@
     cursor: pointer;
 	text-color: white;
 }
+
 .accordion-title:hover {}
 .accordion-title:first-child {border: none;}
 .accordion-title.open {cursor: default;}

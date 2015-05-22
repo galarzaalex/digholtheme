@@ -15,15 +15,13 @@ add_shortcode('fast_facts', function($atts){
 			'width' => 250,
 			'height' => 500,
 			'title' => 'An Image',
-			'value' => 'Words',
-			'link' => 'Link'
+			'value' => 'Words'
 		), $atts);
 		
 	return '
 	<div class="container_fast_facts"> <img src="'. $atts['src'].'" width="'. $atts['width'].'" height="'. $atts['height'].'"></img>
 		<h4>'. $atts['title'].'</h4>
 			<h5>'. $atts['value'].'</h5>
-				<h5>'. $atts['link'].'</h5>
 	</div>';
 });
 

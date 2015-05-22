@@ -124,3 +124,17 @@ p {
  text-align: justify;
  text-justify: inter-word;
 }
+
+a {
+	color: #8e9fa9;
+	cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #404040;
+	outline: none;
+	text-decoration: underline;
+}

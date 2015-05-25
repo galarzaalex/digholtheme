@@ -154,3 +154,13 @@ a:active {
 #site-logo a {
     display: block;
     line-height: 0;
+}
+
+#site-branding,
+#site-logo,
+#site-header {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	

@@ -159,9 +159,8 @@ a:active {
     line-height: 0;
 }
 
-.logo-right #site-header {
+#site-branding.logo-right {
     display: block;
     float: none;
     margin: auto !important;
-}
-	
+}	

@@ -94,6 +94,11 @@ figure.featured-homepage-image>a img {
 		padding: 25px 25px 25px 25px;
 		margin-left: 20px;
 	}
+
+.page-anchor {
+	    position: relative;
+	    top: -130px; /* the height of your header */
+	}
 	
 /* End Shortcode Styles */	
 	

@@ -25,3 +25,9 @@ add_shortcode('fast_facts', function($atts){
 	</div>';
 });
 
+function revconcept_anchor($atts, $content=null, $code="") {
+    $return = '<div class="page-anchor" id="'.$content.'">';
+    $return .= '</div>';
+    return $return;
+}
+add_shortcode('anchor' , 'revconcept_anchor' );

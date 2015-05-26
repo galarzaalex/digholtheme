@@ -101,7 +101,7 @@ figure.featured-homepage-image>a img {
 	}
 	
 .container_content_link {
-		float: right
+		float: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
 		padding: 25px 25px 25px 25px;

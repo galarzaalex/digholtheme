@@ -41,7 +41,7 @@ add_shortcode('content_link', function($atts){
 	$atts = shortcode_atts(
 		array(
 			'title' => 'Contents',
-			'link' => '<a href="'.$to.'">''</a>';
+			'link' => 'Link'
 		), $atts);
 		
 	return '

@@ -45,7 +45,7 @@ add_shortcode('content_link', function($atts){
 		), $atts);
 		
 	return '
-	<div class="container_content_link"> <contents="'. $atts['contents'].'"></contents>
+	<div class="container_fast_facts"> <contents="'. $atts['contents'].'"></contents>
 		<h4>'. $atts['link'].'</h4>
 	</div>';
 });

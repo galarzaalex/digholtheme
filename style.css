@@ -108,6 +108,7 @@ figure.featured-homepage-image>a img {
 		padding: 25px 25px 25px 25px;
 		margin-left: 20px;
 		width: 350px;
+		position: relative;
 	}
 	
 /* End Shortcode Styles */	

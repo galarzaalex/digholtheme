@@ -31,3 +31,19 @@ function revconcept_anchor($atts, $content=null, $code="") {
     return $return;
 }
 add_shortcode('anchor' , 'revconcept_anchor' );
+
+function contents($atts, $content = null) {
+	return '<a href="'.$to.'">'. do_shortcode($content) .'</a>';
+}
+add_shortcode('content_link', function($atts){
+	$atts = shortcode_atts(
+		array(
+			'contents' => 'Contents',
+			'link' => 'Words'
+		), $atts);
+		
+	return '
+	<div class="content_link"> <contents="'. $atts['contents'].'"></contents>
+		<h4>'. $atts['link'].'</h4>
+	</div>';
+});

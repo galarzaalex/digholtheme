@@ -194,6 +194,7 @@ a:active {
 	padding-top: 25px;
 	height: 0;
 	align: left;
+	clear: none !important;
 }
 .videoWrapper iframe {
 	position: absolute;

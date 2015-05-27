@@ -13,7 +13,7 @@ add_shortcode('fast_facts', function($atts){
 		array(
 			'src' => '',
 			'width' => 250,
-			'height' => 500,
+			'height' => 300,
 			'title' => 'An Image',
 			'value' => 'Words'
 		), $atts);

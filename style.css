@@ -189,7 +189,7 @@ a:active {
 /* For Videos */
 
 .videoWrapper {
-    display: block;
+    clear: both;
 }
 
 /* End Videos */

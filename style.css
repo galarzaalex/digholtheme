@@ -110,6 +110,7 @@ figure.featured-homepage-image>a img {
 		margin-left: 20px;
 		width: 350px;
 		position: relative;
+		clear: right;
 	}
 	
 /* End Shortcode Styles */	

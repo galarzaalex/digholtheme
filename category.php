@@ -10,7 +10,6 @@
  */
 
 get_header(); ?>
-<p>This is a category listing</p>
 	<section id="primary" class="content-area">
 
 		<main id="main" class="site-main" role="main">
@@ -20,7 +19,7 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title">
 					<?php
-						
+						single_cat_title( '', true );					
 					?>
 				</h1>
 				

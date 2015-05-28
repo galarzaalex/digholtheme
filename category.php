@@ -42,10 +42,12 @@ get_header(); ?>
   						$thumbnail = "<div class='category-listing-no-thumbnail'>No image available</div>";
   					}
   					$accordion .= 
-  						"<div class='category-item-container'>" .
+							"<a href='" . get_permalink( $ID ) . "'>" .
+  							"<div class='category-item-container'>" .
       						$thumbnail .
-    						"<div class='category-item-title'>$a_post->post_title</div>" .
-    						"</div>";
+    							"<div class='category-item-title'>$a_post->post_title</div>" .
+    						"</div>"
+						  "</a>";
 				}
 					
 				$accordion .= "[/accordion-item]";

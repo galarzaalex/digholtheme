@@ -28,7 +28,7 @@ get_header(); ?>
 			<?php 
 			$posts_by_tag = aggregate_posts_by_tag ();
 			$i = 0;
-			$accordion = "[accordion]";
+			$accordion = "[accordion openfirst='true']";
 			foreach (array_keys($posts_by_tag) as $tag) {
 				$accordion .= "[accordion-item title='$tag']";
 				

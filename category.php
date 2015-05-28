@@ -46,7 +46,7 @@ get_header(); ?>
   							"<div class='category-item-container'>" .
       						$thumbnail .
     							"<div class='category-item-title'>$a_post->post_title</div>" .
-    						"</div>"
+    						"</div>" .
 						  "</a>";
 				}
 					

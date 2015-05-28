@@ -1,0 +1,72 @@
+<?php
+/**
+ * The template for displaying Archive pages
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Catch Themes
+ * @subpackage Catch Responsive
+ * @since Catch Responsive 1.0 
+ */
+
+get_header(); ?>
+<p>This is a category listing</p>
+	<section id="primary" class="content-area">
+
+		<main id="main" class="site-main" role="main">
+
+		<?php if ( have_posts() ) : ?>
+
+			<header class="page-header">
+				<h1 class="page-title">
+					<?php
+						
+					?>
+				</h1>
+				
+			</header><!-- .page-header -->
+
+			<?php 
+			$posts_by_tag = aggregate_posts_by_tag ();
+			$i = 0;
+			$accordion = "[accordion]";
+			foreach (array_keys($posts_by_tag) as $tag) {
+				$accordion .= "[accordion-item title='$tag']";
+				
+					
+				foreach ($posts_by_tag[$tag] as $a_post) {
+					$ID = $a_post->ID;
+					if ( has_post_thumbnail ($ID) ) {
+  						$thumbnail = get_the_post_thumbnail($ID);
+  					}
+  					else {
+  						$thumbnail = "<div class='category-listing-no-thumbnail'>No image available</div>";
+  					}
+  					$accordion .= 
+  						"<div class='category-item-container'>" .
+      						$thumbnail .
+    						"<div class='category-item-title'>$a_post->post_title</div>" .
+    						"</div>";
+				}
+					
+				$accordion .= "[/accordion-item]";
+							
+				$i++;
+			}
+			
+			$accordion .= "[/accordion]";
+			echo do_shortcode ($accordion);
+			?>
+			
+			<?php catchresponsive_content_nav( 'nav-below' ); ?>
+		<?php else : ?>
+
+			<?php get_template_part( 'content', 'none' ); ?>
+
+		<?php endif; ?>
+
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

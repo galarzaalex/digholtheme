@@ -192,6 +192,31 @@ a:active {
     clear: both;
 }
 
+/*  Styles associated with the category listings for Blog posts  */
+.category-item-container {
+  position: relative;
+  width: 150px;
+  height: 225px;
+  overflow: hidden;
+}
+
+.category-item-container img {
+  width: 150px;
+  height: 225px;
+}
+
+.category-item-container .category-item-title {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  background-color: rgb(244, 223, 148);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*  End styles associated with category listings for Blog posts  */
 /* End Videos */
 
 #main {

@@ -152,7 +152,7 @@ p {
 }
 
 a {
-	color: #657279;
+	color: #164159;
 	cursor: pointer;
     text-decoration: none;
 }
@@ -210,7 +210,9 @@ a:active {
   left: 0px;
   right: 0px;
   bottom: 10px;
-  background-color: rgb(244, 223, 148);
+  background-color: #164159;
+  border-left: 5px solid #c9c9c9;
+  border-right: 5px solid #c9c9c9;
   color: black;
   text-align: center;
   font-weight: bold;

@@ -69,6 +69,14 @@ article.slides>div.entry-container>div.entry-content p {
 img {
     border: 5px solid #c9c9c9 !important;
 }
+
+.caption_left {
+	text-align: left;
+}
+
+.caption_right {
+	text-align: right;
+}
 /* Removes border from logo */
 div#site-logo>a img {
     border: 0 !important;
@@ -225,3 +233,4 @@ a:active {
 	float: left;
 	width: 90%;
 }
+

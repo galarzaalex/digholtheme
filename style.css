@@ -198,6 +198,7 @@ a:active {
 
 .videoWrapper {
     clear: both;
+	width: 200px;
 }
 
 /*  Styles associated with the category listings for Blog posts  */

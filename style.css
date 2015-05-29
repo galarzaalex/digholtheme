@@ -215,7 +215,7 @@ a:active {
   border-right: 5px solid #c9c9c9;
   color: white;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /*  End styles associated with category listings for Blog posts  */

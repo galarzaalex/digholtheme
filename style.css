@@ -213,7 +213,8 @@ a:active {
   width: 150px;
   height: 150px;
   position: relative;
-  clear: left;
+  float: left;
+  margin: 5px;
 }
 
 .category-item-container .category-item-title {

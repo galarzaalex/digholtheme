@@ -212,7 +212,7 @@ a:active {
 .category-item-container img {
   width: 150px;
   height: 150px;
-  float: left;
+  display: inline-block;
 }
 
 .category-item-container .category-item-title {

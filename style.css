@@ -207,12 +207,12 @@ a:active {
   width: 150px;
   height: 150px;
   overflow: hidden;
-  float: left;
 }
 
 .category-item-container img {
   width: 150px;
   height: 150px;
+  float: left;
 }
 
 .category-item-container .category-item-title {

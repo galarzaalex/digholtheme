@@ -212,7 +212,8 @@ a:active {
 .category-item-container img {
   width: 150px;
   height: 150px;
-  align: left;
+  position: relative;
+  clear: left;
 }
 
 .category-item-container .category-item-title {

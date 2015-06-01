@@ -208,6 +208,7 @@ a:active {
   height: 150px;
   overflow: hidden;
   display: inline-block;
+  margin: 5px;
 }
 
 .category-item-container img {

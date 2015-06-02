@@ -123,6 +123,7 @@ figure.featured-homepage-image>a img {
 	
 /* End Shortcode Styles */	
 	
+/* Begin Text Styles */	
 h2 {
 	clear: none !important;
 	margin-bottom: 10px;
@@ -173,6 +174,15 @@ a:active {
 	text-decoration: underline;
 }
 
+/* End Text Styles */
+
+/* Apply this to bibliography sections */
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+/* End bib */
+
 #site-branding,
 #site-logo {
 	max-width: 100%;
@@ -200,6 +210,7 @@ a:active {
     clear: both;
 	width: 200px;
 }
+/* End Videos */
 
 /*  Styles associated with the category listings for Blog posts  */
 .category-item-container {
@@ -230,7 +241,6 @@ a:active {
 }
 
 /*  End styles associated with category listings for Blog posts  */
-/* End Videos */
 
 #main {
 	float: left;

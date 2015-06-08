@@ -206,6 +206,13 @@ a:active {
 
 /* For Videos */
 
+embed,
+iframe,
+object {
+	width: 80%;
+	max-width: 640px;
+}
+
 .videoWrapper {
     clear: both;
 }

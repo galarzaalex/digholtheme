@@ -38,9 +38,6 @@ function sort_function ($post1, $post2) {
 			$i = 0;
 			$accordion = "[accordion openfirst='true']";
 			ksort($posts_by_tag)
-				foreach (array_keys($posts_by_tag) as $tag) {
-				$accordion .= "[accordion-item title='$tag']";
-			}
 			$posts = posts_by_tag[$tag];
 			uasort($posts, "sort_function");
 			foreach ($posts as $a_post) {

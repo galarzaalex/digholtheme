@@ -10,6 +10,14 @@
  */
 
 get_header(); ?>
+<?
+function sort_function ($post1, $post2) {
+	$pltitle = $post1->post_title;
+	$p2title = $post2->post_title;
+	
+	return strcmp ($pltitle, $p2title);
+}
+?>	
 	<section id="primary" class="content-area">
 
 		<main id="main" class="site-main" role="main">
@@ -29,11 +37,13 @@ get_header(); ?>
 			$posts_by_tag = aggregate_posts_by_tag ();
 			$i = 0;
 			$accordion = "[accordion openfirst='true']";
-			foreach (array_keys($posts_by_tag) as $tag) {
+			ksort($posts_by_tag) foreach (array_keys($posts_by_tag) as $tag) {
 				$accordion .= "[accordion-item title='$tag']";
 				
 					
-				foreach ($posts_by_tag[$tag] as $a_post) {
+				$posts = $posts_by_tag[$tag];
+				uasort($posts, "sort_function");
+				foreach ($posts as $a_post) {
 					$ID = $a_post->ID;
 					if ( has_post_thumbnail ($ID) ) {
   						$thumbnail = get_the_post_thumbnail($ID);

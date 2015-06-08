@@ -17,7 +17,7 @@ function sort_function ($post1, $post2) {
 	
 	return strcmp ($pltitle, $p2title);
 }
-?>	
+?>
 	<section id="primary" class="content-area">
 
 		<main id="main" class="site-main" role="main">
@@ -37,14 +37,13 @@ function sort_function ($post1, $post2) {
 			$posts_by_tag = aggregate_posts_by_tag ();
 			$i = 0;
 			$accordion = "[accordion openfirst='true']";
-			ksort($posts_by_tag) 
+			ksort($posts_by_tag)
 			foreach (array_keys($posts_by_tag) as $tag) {
 				$accordion .= "[accordion-item title='$tag']";
-				
-					
-				$posts = $posts_by_tag[$tag];
-				uasort($posts, "sort_function");
-				foreach ($posts as $a_post) {
+			}
+			$posts = posts_by_tag[$tag];
+			uasort($posts, "sort_function");
+			foreach ($posts as $a_post) {
 					$ID = $a_post->ID;
 					if ( has_post_thumbnail ($ID) ) {
   						$thumbnail = get_the_post_thumbnail($ID);

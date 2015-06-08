@@ -34,11 +34,10 @@ function sort_function ($post1, $post2) {
 			</header><!-- .page-header -->
 
 			<?php 
-			ksort($posts_by_tag)
 			$posts_by_tag = aggregate_posts_by_tag ();
 			$i = 0;
 			$accordion = "[accordion openfirst='true']";
-			 
+			ksort($posts_by_tag) 
 			foreach (array_keys($posts_by_tag) as $tag) {
 			$accordion .= "[accordion-item title='$tag']";
 			

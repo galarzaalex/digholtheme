@@ -214,10 +214,10 @@ object {
 }
 
 .videoWrapper {
-    clear: both;
 	width: 80%;
 	max-width: 450px;
 	max-height: 253px;
+	margin-bottom: 5px;
 }
 /* End Videos */
 

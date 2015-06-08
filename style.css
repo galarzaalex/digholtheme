@@ -216,7 +216,8 @@ object {
 .videoWrapper {
     clear: both;
 	width: 80%;
-	max-width: 640px;
+	max-width: 450px;
+	max-height: 253px;
 }
 /* End Videos */
 

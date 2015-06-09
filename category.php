@@ -40,7 +40,7 @@ function sort_function ($post1, $post2) {
 		
 				foreach (array_keys($posts_by_tag) as $tag) {
 					$accordion .= "[accordion-item title='$tag']";
-				}
+			
 			$posts = $posts_by_tag[$tag];
 				uasort($posts, "sort_function");	
 				foreach ($posts as $a_post) {

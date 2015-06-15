@@ -256,3 +256,11 @@ object {
 	width: 90%;
 }
 
+/* Styles associtated with last updated section */
+
+.lastupdate {
+	text-align: center;
+	background: #f9f9f9;
+	border: solid 4px #d3d3d3;
+	padding: 0px 25px 5px 25px;
+}

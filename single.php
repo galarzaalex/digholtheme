@@ -28,7 +28,10 @@ get_header(); ?>
 		
 		<?php related_posts(); ?>
 			
-		Updated <?php the_modified_date('l, F j, Y', '<div class="lastupdate">', '</div>'); ?>
+	<div class="lastupdate"> 
+		Updated <?php the_modified_date('l, F j, Y'); 
+		?> 
+		</div>
 		
 	<?php endwhile; // end of the loop. ?>
 

@@ -260,9 +260,5 @@ object {
 
 .lastupdate {
 	text-align: center;
-	background: #f9f9f9;
-	border: solid 4px #d3d3d3;
-	padding: 15px 15px 15px 15px;
 	font-style: italic;
-    margin: 30px 30px 30px 30px;
 }

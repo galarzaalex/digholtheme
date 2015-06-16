@@ -22,7 +22,7 @@ get_header(); ?>
 			
 			<?php related_posts(); ?>
 			
-			<?php the_modified_date('l, F j, Y', '<div class="lastupdate">', '</div>'); >
+			<?php the_modified_date('l, F j, Y', '<div class="lastupdate">', '</div>'); ?>
 
 			<?php 
 				/** 

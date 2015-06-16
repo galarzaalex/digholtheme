@@ -261,5 +261,6 @@ object {
 .lastupdate {
 	text-align: center;
 	font-style: italic;
+	padding: 5px 5px 5px 5px;
 }
 

@@ -21,6 +21,8 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'page' ); ?>
 			
 			<?php related_posts(); ?>
+			
+			<?php the_modified_date('l, F j, Y', '<div class="lastupdate">', '</div>'); >
 
 			<?php 
 				/** 

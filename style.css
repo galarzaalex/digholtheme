@@ -37,7 +37,9 @@
 .accordion-title:hover {}
 .accordion-title:first-child {border: none;}
 .accordion-title.open {cursor: default;}
-.accordion-content {padding-bottom: 20px;}
+.accordion-content {
+	padding: 10px 10px 10px 10px;
+}
 
 .accordion br {
     display: none;
@@ -110,7 +112,7 @@ figure.featured-homepage-image>a img {
 		clear: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
-		padding: 0px 25px 5px 40px;
+		padding: 0px 25px 5px 45px;
 		margin-left: 20px;
 		width: 300px;
 		position: relative;

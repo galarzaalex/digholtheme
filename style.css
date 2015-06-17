@@ -119,6 +119,8 @@ figure.featured-homepage-image>a img {
 		line-height: 1.3;
 		text-indent: -1em;
 		font-size: 18px;
+		text-align: left;
+		text-justify: none;
 	}	
 
 .page-anchor {

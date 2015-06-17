@@ -110,7 +110,7 @@ figure.featured-homepage-image>a img {
 		clear: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
-		padding: 0px 25px 5px 50px;
+		padding: 0px 25px 5px 40px;
 		margin-left: 20px;
 		width: 300px;
 		position: relative;
@@ -158,6 +158,7 @@ h4 {
 	clear: none !important;
 	font-weight: bold;
 	text-align: left;
+	text-indent: -1em;
 	}
 	
 h5 {

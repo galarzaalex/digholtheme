@@ -119,7 +119,7 @@ figure.featured-homepage-image>a img {
 		line-height: 1.3;
 		text-indent: -1em;
 		font-size: 18px;
-		text-align: left;
+		text-align: left !important;
 		text-justify: none !important;
 	}	
 
@@ -162,7 +162,6 @@ h4 {
 	clear: none !important;
 	font-weight: bold;
 	text-align: left;
-	text-justify: none;
 	}
 	
 h5 {

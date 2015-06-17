@@ -115,6 +115,7 @@ figure.featured-homepage-image>a img {
 		position: relative;
 		line-height: 1.3;
 		text-indent: -2em;
+		clear: right;
 	}	
 
 .page-anchor {

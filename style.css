@@ -120,7 +120,7 @@ figure.featured-homepage-image>a img {
 		text-indent: -1em;
 		font-size: 18px;
 		text-align: left;
-		text-justify: none;
+		text-justify: none !important;
 	}	
 
 .page-anchor {

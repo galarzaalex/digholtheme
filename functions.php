@@ -14,14 +14,12 @@ add_shortcode('fast_facts', function($atts){
 			'src' => '',
 			'width' => 250,
 			'height' => 300,
-			'title' => 'An Image',
-			'value' => 'Words'
+			'title' => 'An Image'
 		), $atts);
 		
 	return '
-	<div class="container_fast_facts"> <img src="'. $atts['src'].'" width="'. $atts['width'].'" height="'. $atts['height'].'"></img>
+	<div class="image_fast_facts"> <img src="'. $atts['src'].'" width="'. $atts['width'].'" height="'. $atts['height'].'"></img>
 		<h4>'. $atts['title'].'</h4>
-			<h5>'. $atts['value'].'</h5>
 	</div>';
 });
 

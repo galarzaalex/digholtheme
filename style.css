@@ -94,51 +94,6 @@ figure.featured-homepage-image>a img {
     width: 350px;
 }
 /* End Image Styles */
-
-/* Shortcode Styles */
-
-.image_fast_facts {
-		float: right;
-		background: #f9f9f9;
-		border-left: solid 4px #d3d3d3;
-		padding: 25px 25px 5px 25px;
-		margin-left: 20px;
-		width: 300px;
-		position: relative;
-	}
-	
-.container_fast_facts {
-		float: right;
-		clear: right;
-		background: #f9f9f9;
-		border-left: solid 4px #d3d3d3;
-		padding: 0px 25px 5px 45px;
-		margin-left: 20px;
-		width: 300px;
-		position: relative;
-		line-height: 1.3;
-		text-indent: -1em;
-		font-size: 18px;
-		text-align: left !important;
-	}	
-
-.page-anchor {
-	    position: relative;
-	    top: -130px; /* the height of your header */
-	}
-	
-.container_content_link {
-		float: right;
-		background: #f9f9f9;
-		border-left: solid 4px #d3d3d3;
-		padding: 0px 25px 5px 25px;
-		margin-left: 20px;
-		width: 300px;
-		position: relative;
-		clear: right;
-	}
-	
-/* End Shortcode Styles */	
 	
 /* Begin Text Styles */	
 h2 {
@@ -193,6 +148,51 @@ a:active {
 }
 
 /* End Text Styles */
+
+/* Shortcode Styles */
+
+.image_fast_facts {
+		float: right;
+		background: #f9f9f9;
+		border-left: solid 4px #d3d3d3;
+		padding: 25px 25px 5px 25px;
+		margin-left: 20px;
+		width: 300px;
+		position: relative;
+	}
+	
+.container_fast_facts {
+		float: right;
+		clear: right;
+		background: #f9f9f9;
+		border-left: solid 4px #d3d3d3;
+		padding: 0px 25px 5px 45px;
+		margin-left: 20px;
+		width: 300px;
+		position: relative;
+		line-height: 1.3;
+		text-indent: -1em;
+		font-size: 18px;
+		text-align: left !important;
+	}	
+
+.page-anchor {
+	    position: relative;
+	    top: -130px; /* the height of your header */
+	}
+	
+.container_content_link {
+		float: right;
+		background: #f9f9f9;
+		border-left: solid 4px #d3d3d3;
+		padding: 0px 25px 5px 25px;
+		margin-left: 20px;
+		width: 300px;
+		position: relative;
+		clear: right;
+	}
+	
+/* End Shortcode Styles */	
 
 /* Apply this to bibliography sections */
 .hangingindent {

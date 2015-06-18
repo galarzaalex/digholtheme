@@ -161,7 +161,6 @@ h4 {
 	clear: none !important;
 	font-weight: bold;
 	text-align: left !important;
-	text-justify: none !important;
 	text-indent: -1em;
 	padding-left: 20px;
 	}
@@ -176,7 +175,7 @@ p.entry-meta {
 }
 
 p {
- text-align: left;
+ text-align: justify;
 }
 
 a {

@@ -162,6 +162,7 @@ a:active {
 	}
 	
 .container_fast_facts {
+		text-align: left !important;
 		float: right;
 		clear: right;
 		background: #f9f9f9;
@@ -173,7 +174,6 @@ a:active {
 		line-height: 1.3;
 		text-indent: -1em;
 		font-size: 18px;
-		text-align: left !important;
 	}	
 
 .page-anchor {

@@ -311,7 +311,7 @@ object {
 		float: left;
 		background: #f9f9f9;
 		border-right: solid 4px #d3d3d3;
-		padding: 25px 25px 25px 25px;
+		padding: 10px 5px 10px 40px;
 		margin-right: 20px;
 		width: 300px;
 		position: relative;
@@ -324,7 +324,7 @@ object {
 		float: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
-		padding: 25px 25px 25px 25px;
+		padding: 10px 5px 10px 40px;
 		margin-left: 20px;
 		width: 300px;
 		position: relative;

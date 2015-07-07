@@ -321,6 +321,7 @@ object {
 
 .image_presidents_right {
 		float: right;
+		clear: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
 		padding: 10px 5px 10px 40px;

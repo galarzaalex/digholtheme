@@ -298,9 +298,9 @@ object {
 		clear: right;
 		background: #f9f9f9;
 		border-left: solid 4px #d3d3d3;
-		padding: 25px 25px 5px 45px;
+		padding: 25px 25px 25px 25px;
 		margin-left: 20px;
-		width: 300px;
+		width: 250px;
 		position: relative;
 		line-height: 1.3;
 		text-indent: -1em;
@@ -311,11 +311,14 @@ object {
 .image_presidents_left {
 		float: left;
 		background: #f9f9f9;
-		border-left: solid 4px #d3d3d3;
+		border: solid 4px #d3d3d3;
 		padding: 25px 25px 5px 25px;
 		margin-left: 20px;
 		width: 300px;
 		position: relative;
+		line-height: 1.3;
+		text-indent: -1em;
+		font-size: 18px;
 	}
 
 .image_presidents_right {
@@ -326,4 +329,7 @@ object {
 		margin-left: 20px;
 		width: 300px;
 		position: relative;
+		line-height: 1.3;
+		text-indent: -1em;
+		font-size: 18px;
 		}

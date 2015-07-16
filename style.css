@@ -332,5 +332,12 @@ object {
 		text-indent: -.25em;
 		font-size: 18px;
 	}
+
+/* Styles associated with ul, ol, li */
+
+ul li {
+	margin-left: 20px;
+}
+
 	
 

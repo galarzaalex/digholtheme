@@ -70,7 +70,12 @@ article.slides>div.entry-container>div.entry-content p {
 /* Image Styles*/
 img {
     border: 5px solid #c9c9c9 !important;
-    vertical-align: middle;
+}
+
+img.displayed {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .caption_left {

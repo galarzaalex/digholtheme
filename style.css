@@ -119,7 +119,8 @@ h2 {
 h3 {
 	clear: none !important;
 	font-size: 22px;
-	padding-bottom: 10px;
+	padding-bottom: 10px !important;
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
 }	

@@ -176,7 +176,7 @@ a:active {
 	}
 	
 .container_fast_facts {
-		text-align: left;
+		text-align: left !important;
 		float: right;
 		clear: right;
 		background: #f9f9f9;

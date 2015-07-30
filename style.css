@@ -192,7 +192,7 @@ a:active {
 
 .page-anchor {
 	    position: relative;
-	    top: -140px; /* the height of your header */
+	    top: -130px; /* the height of your header */
 	}
 	
 .container_content_link {

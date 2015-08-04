@@ -128,7 +128,6 @@ h4 {
 	clear: none !important;
 	font-weight: bold;
 	text-align: left !important;
-	text-indent: -1em;
 	padding-left: 20px;
 	font-size: 18px;
 	}
@@ -137,6 +136,14 @@ h5 {
 	clear: none !important;
 	line-height: 1.3;
 	font-size: 14;
+	font-weight: bold;
+	text-align: left !important;
+}	
+
+h6 {
+	clear: none !important;
+	line-height: 1.3;
+	font-size: 12;
 }	
 
 p.entry-meta {
